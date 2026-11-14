@@ -1,0 +1,26 @@
+.ipynb_checkpoints/
+__pycache__/
+opalx/__pycache__/
+opalx/runs/
+# Native result snapshots are generated locally, not course source.
+opalx/*.json
+opalx/test_school.py
+*HANDOFF-NOTEBOOK.md
+*HANDOFF-OPALX.md
+*migration-audit/
+HANDOFF-CONSTANTS.md
+
+opalx/README.md
+
+opalx/check_constants.py
+
+# Generated results in the reorganized School hierarchy stay local.
+/opalx/**/*.json
+/opalx/**/*.h5
+/opalx/**/*.stat
+/opalx/**/timing.dat
+/opalx/**/run.log
+/opalx/**/data/
+# Local documentation and developer audit material.
+/docs/
+runs/
